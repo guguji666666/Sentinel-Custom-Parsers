@@ -45,7 +45,7 @@ You can upgrade your accounts in the Azure portal or by using tools like Azure P
 > [!TIP]
 > General-purpose v1 accounts can be migrated to a general-purpose v2 using deployifdoesnotexit Azure Policy. This Policy will detect and identify any general-purpose v1 accounts accounts and allow you to do an  non-distruptive in place upgrade of those accounts.  
 >
-> A Sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
+> A sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
 
 ### Does GPv1 support hot, cool, or archive tiers or lifecycle management?
 
