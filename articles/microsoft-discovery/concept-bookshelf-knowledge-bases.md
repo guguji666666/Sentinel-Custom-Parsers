@@ -67,7 +67,7 @@ The Bookshelf in Microsoft Discovery currently supports Small (<200 MB of text),
 
 ## Best practices
 
-The Bookshelf is an evolving feature. Over the course of future releases, we'll improve the costs and time associated with creating Bookshelf deployments and indexing and searching over KBs. We'll also support incremental indexing and we'll take advantage of newer LLMs for search. Currently, for the best performance and to minimize costs of re-deployment, re-indexing, re-enrichment, or search, we recommend the following best practices:
+The Bookshelf is an evolving feature. Over the course of future releases, Microsoft will improve the costs and time associated with creating Bookshelf deployments and indexing and searching over KBs. The product team also plans to support incremental indexing and take advantage of newer LLMs for search. Currently, for the best performance and to minimize costs of re-deployment, re-indexing, re-enrichment, or search, follow these best practices:
 
 * Limit each Knowledge Base to Small or Medium (default)-sized deployments
 * Ensure each KB's content is thematically coherent and directly applicable to your Discovery workflow. 
