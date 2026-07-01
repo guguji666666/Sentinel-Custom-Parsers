@@ -56,7 +56,7 @@ Incremental indexing isn't currently supported. To update Knowledge Bases, you m
 
 ### Local scope queries 
 
-Currently, the Bookshelf is best suited for global scope queries, not local scope queries. Your retrieval quality for local scope queries may vary.
+Currently, the Bookshelf is best suited for global scope queries, not local scope queries. Your retrieval quality for local scope queries might vary.
 
 > [!NOTE]
 > Equal retrieval quality for global and local scope queries is a planned feature for future releases. 
