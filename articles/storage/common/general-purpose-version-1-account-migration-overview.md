@@ -89,7 +89,7 @@ To minimize risk and ensure a smooth migration:
 > [!TIP]
 > Migrate general-purpose v1 accounts to general-purpose v2 accounts by using the `deployIfNotExists` Azure Policy. This policy detects and identifies any general-purpose v1 accounts and enables you to do a non-disruptive in-place upgrade of those accounts.  
 >
-> A Sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
+> A sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
 
 ### Azure Resource Graph - Example Query 
 
