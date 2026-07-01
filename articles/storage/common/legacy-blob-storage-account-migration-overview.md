@@ -71,7 +71,7 @@ To minimize risk and ensure a smooth migration:
 > [!TIP]
 > Migrate general-purpose v1 accounts to general-purpose v2 accounts by using the `deployIfNotExists` Azure Policy. This policy detects and identifies legacy blob storage accounts and enables you to non-disruptively upgrade those accounts in place.  
 >
-> A Sample policy is available here: [Legacy blob storage Azure policy](https://aka.ms/legacy_blob_storage_azure_policy) 
+> A sample policy is available here: [Legacy blob storage Azure policy](https://aka.ms/legacy_blob_storage_azure_policy) 
 
 ## Identify legacy blob storage accounts using Azure Resource Graph
 
