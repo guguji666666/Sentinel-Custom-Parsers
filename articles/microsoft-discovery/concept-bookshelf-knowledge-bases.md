@@ -71,7 +71,7 @@ The Bookshelf is an evolving feature. Over the course of future releases, Micros
 
 * Limit each Knowledge Base to Small or Medium (default)-sized deployments
 * Ensure each KB's content is thematically coherent and directly applicable to your Discovery workflow. 
-* We suggest using generic search tools like Azure AI Search, Copilot, M365/SharePoint search, etc. to broadly search your documents and help curate the subset for Bookshelf deep reasoning.
+* Use generic search tools like Azure AI Search, Copilot, M365/SharePoint search, and others to broadly search your documents and help curate the subset for Bookshelf deep reasoning.
 * You can use a Knowledge Base to identify what is missing from that Knowledge Base. For example, try querying "what context is missing to be able to determine \<x\>?" or "what additional information is required to assess \<y\>?" Answers to these kinds of queries can help you further curate and refine your KBs, especially as your Discovery workflows progress. 
 
 ### Best practices at a glance 
