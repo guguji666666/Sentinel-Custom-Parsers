@@ -50,7 +50,7 @@ az storage account update -g <resource_group> -n <storage_account> --set kind=St
 ```
 ---
 
-# [Azure Policy](#azure-policy)
+# [Azure Policy](#tab/azure-policy)
 To upgrade to a general-purpose v2 account use a deployifdoesnotexit Azure Policy. This Policy will detect and identify any general-purpose v1 storage accounts and allow you to do a non-distruptive in place upgrade of those accounts.  
 
 A Sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
