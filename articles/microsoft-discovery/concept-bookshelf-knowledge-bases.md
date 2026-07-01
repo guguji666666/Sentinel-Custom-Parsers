@@ -33,7 +33,7 @@ The Bookshelf in Microsoft Discovery uses Azure AI Search Enrichment to process 
 The Bookshelf in the Microsoft Discovery app uses different libraries to process files locally, but the end result is still a queryable knowledge graph. 
 
 ### Query
-The Bookshelf provides the query function that can be invoked by any agent running on the Microsoft Discovery platform, including your own agent. Via the query and/or agent definition, you can control how query outputs are formatted. For example, you can specify your preferred verbosity, the intended style of the report, if certain information should be ranked or organized in a table, etc. All Bookshelf query outputs display citations as clickable links to source content. 
+The Bookshelf provides the query function that any agent running on the Microsoft Discovery platform can invoke, including your own agent. Through the query and/or agent definition, you can control how query outputs are formatted. For example, you can specify your preferred verbosity, the intended style of the report, if certain information should be ranked or organized in a table, and so on. All Bookshelf query outputs display citations as clickable links to source content. 
 
 ## Known limitations
 
