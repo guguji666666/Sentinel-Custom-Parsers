@@ -48,7 +48,7 @@ General-purpose v2 supports:
 - Read-access geo-zone-redundant storage (**RA-GZRS**).
 
 ### How can I upgrade my accounts?
-You can upgrade your accounts in the Azure portal or use tools like Azure Policy. 
+You can upgrade your accounts in the Azure portal or by using tools like Azure Policy. 
 
 > [!TIP]
 > To upgrade general-purpose v1 accounts to general-purpose v2, use the `deployIfNotExists` Azure Policy. This policy detects and identifies any general-purpose v1 accounts and enables you to perform a non-disruptive in-place upgrade of those accounts.  
