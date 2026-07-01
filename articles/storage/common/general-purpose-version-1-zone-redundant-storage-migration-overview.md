@@ -77,7 +77,7 @@ To minimize risk and ensure a smooth migration:
 1. **Monitor usage**: After migration, keep an eye on your storage account metrics to identify any unexpected changes in usage patterns or costs.
 
 > [!TIP]
-> General-purpose v1 accounts can be migrated to a general-purpose v2 using deployifdoesnotexit Azure Policy. This Policy will detect and identify any general-purpose v1 accounts accounts and allow you to do an  non-distruptive in place upgrade of those accounts.  
+> Migrate general-purpose v1 accounts to general-purpose v2 by using the `deployIfNotExists` Azure Policy. This policy detects and identifies any general-purpose v1 accounts and allows you to do a non-disruptive in-place upgrade of those accounts.  
 >
 > A sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
 
