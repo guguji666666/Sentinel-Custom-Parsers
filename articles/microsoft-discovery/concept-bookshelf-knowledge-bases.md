@@ -9,7 +9,7 @@ ms.date: 06/30/2026
 ---
 
 # Microsoft Discovery Bookshelf
-Microsoft Discovery includes the Bookshelf, a capability that enables customers to convert their data into curated graphs known as Knowledge Bases (KBs). The key components of the Bookshelf are the Bookshelf resource and the Knowledge Base within each Bookshelf. A Knowledge Base contains a vector database and knowledge graph of your indexed artifacts. KBs can be used by Discovery agents as grounding skills and queried by Discovery agents for various use cases, including answering questions, summarization, and reasoning.
+Microsoft Discovery includes the Bookshelf, a capability that enables customers to convert their data into curated graphs known as Knowledge Bases (KBs). The key components of the Bookshelf are the Bookshelf resource and the Knowledge Base within each Bookshelf. A Knowledge Base contains a vector database and knowledge graph of your indexed artifacts. Discovery agents can use KBs as grounding skills and query them for various use cases, including answering questions, summarization, and reasoning.
 
 ## When to use the Bookshelf
 The Bookshelf is best for reasoning over your curated, proprietary data. Knowledge Bases are especially effective when their scoped contents are thematically related and directly applicable to your Discovery workflow. For example, an Application-Specific Integrated Circuit (ASIC) design team could create a Knowledge Base with their project's hardware specifications, simulation result reports, and the latest relevant literature from the field. Querying this Knowledge Base during design workflows ensures Discovery's reasoning is grounded with previous engineering content and scientific literature. 
