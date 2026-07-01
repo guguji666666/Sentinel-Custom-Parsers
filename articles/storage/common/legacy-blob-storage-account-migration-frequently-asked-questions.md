@@ -48,7 +48,7 @@ General-purpose v2 supports:
 You can upgrade your accounts in the Azure portal or use tools like Azure Policy. 
 
 > [!TIP]
-> General-purpose v1 accounts can be migrated to a general-purpose v2 using deployifdoesnotexit Azure Policy. This Policy will detect and identify any legacy blob storage accounts accounts and allow you to do an  non-distruptive in place upgrade of those accounts.  
+> To upgrade general-purpose v1 accounts to general-purpose v2, use the `deployIfNotExists` Azure Policy. This policy detects and identifies legacy blob storage accounts and helps you perform a non-disruptive in-place upgrade of those accounts.  
 >
 > A Sample policy is available here: [Legacy blob storage Azure policy](https://aka.ms/legacy_blob_storage_azure_policy) 
 
