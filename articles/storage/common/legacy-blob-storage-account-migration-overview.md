@@ -69,7 +69,7 @@ To minimize risk and ensure a smooth migration:
 - **Monitor usage**: After migration, keep an eye on your storage account metrics to identify any unexpected changes in usage patterns or costs.
 
 > [!TIP]
-> General-purpose v1 accounts can be migrated to a general-purpose v2 using deployifdoesnotexit Azure Policy. This Policy will detect and identify any legacy blob storage accounts accounts and allow you to do an  non-distruptive in place upgrade of those accounts.  
+> Migrate general-purpose v1 accounts to general-purpose v2 accounts by using the `deployIfNotExists` Azure Policy. This policy detects and identifies legacy blob storage accounts and enables you to non-disruptively upgrade those accounts in place.  
 >
 > A Sample policy is available here: [Legacy blob storage Azure policy](https://aka.ms/legacy_blob_storage_azure_policy) 
 
