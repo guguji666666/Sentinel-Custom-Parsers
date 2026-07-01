@@ -6,7 +6,7 @@ Services: storage
 author: gtrossell-eng
 ms.service: azure-storage
 ms.topic: how-to
-ms.date: 5/13/2026
+ms.date: 7/1/2026
 ms.author: normesta
 ms.subservice: storage-common-concepts
 ms.custom: devx-track-arm-template
@@ -85,6 +85,11 @@ To minimize risk and ensure a smooth migration:
 1. **Upgrade accounts**: Use the Azure portal, CLI, or automation tools to upgrade from GPv1 to GPv2. [Learn more about the upgrade process](storage-account-upgrade.md).
 1. **Validate behavior**: Confirm that workloads continue functioning and that billing reflects expected changes post-upgrade.
 1. **Monitor usage**: After migration, keep an eye on your storage account metrics to identify any unexpected changes in usage patterns or costs.
+
+> [!TIP]
+> General-purpose v1 accounts can be migrated to a general-purpose v2 using deployifdoesnotexit Azure Policy. This Policy will detect and identify any general-purpose v1 accounts accounts and allow you to do an  non-distruptive in place upgrade of those accounts.  
+>
+> A Sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
 
 ### Azure Resource Graph - Example Query 
 

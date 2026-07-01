@@ -6,7 +6,7 @@ Services: storage
 author: gtrossell-eng
 ms.service: azure-storage
 ms.topic: faq
-ms.date: 5/13/2026
+ms.date: 7/1/2026
 ms.author: normesta
 ms.subservice: storage-common-concepts
 ms.custom: devx-track-arm-template
@@ -43,6 +43,14 @@ General-purpose v2 supports:
 - Read-access geo-redundant storage (**RA-GRS**).
 - Geo-zone-redundant storage (**GZRS**).
 - Read-access geo-zone-redundant storage (**RA-GZRS**).
+
+### How can I upgrade my accounts?
+You can either upgrade you accounts in the Azure portal or via tools like a Azure Policy 
+
+> [!TIP]
+> General-purpose v1 accounts can be migrated to a general-purpose v2 using deployifdoesnotexit Azure Policy. This Policy will detect and identify any legacy blob storage accounts accounts and allow you to do an  non-distruptive in place upgrade of those accounts.  
+>
+> A Sample policy is available here: [Legacy blob storage Azure policy](https://aka.ms/legacy_blob_storage_azure_policy) 
 
 ### Does legacy blob storage support lifecycle management policies?
 

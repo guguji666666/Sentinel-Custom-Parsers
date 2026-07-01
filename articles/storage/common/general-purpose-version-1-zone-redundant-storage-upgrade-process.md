@@ -50,6 +50,11 @@ az storage account update -g <resource_group> -n <storage_account> --set kind=St
 ```
 ---
 
+# [Azure Policy](#azure-policy)
+To upgrade to a general-purpose v2 account use a deployifdoesnotexit Azure Policy. This Policy will detect and identify any general-purpose v1 storage accounts and allow you to do a non-distruptive in place upgrade of those accounts.  
+
+A Sample policy is available here: [general-purpose v1 Azure policy](https://aka.ms/gpv1_azure_policy) 
+
 ## Downtime requirements
 
 During a conversion, you can access data in your storage account with no loss of durability or availability. [The Azure Storage SLA](https://azure.microsoft.com/support/legal/sla/storage/) is maintained during the migration process and no data is lost during a conversion. Service endpoints, access keys, shared access signatures, and other account options remain unchanged after the migration.
