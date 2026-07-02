@@ -337,7 +337,7 @@ The AOSM team plans to support Helm 4 through two key milestones:
 
 Publishers will continue to have flexibility when selecting Helm behavior during NFO installation. NFO will default to "compatibility mode," while providing an installation option to enable full Helm 4 behavior. This capability is cluster-scoped, meaning all deployments within a cluster must use the same Helm operating mode.
 
-### Compatibility Mode Details
+### Compatibility mode details
 The following settings are applied when running Helm 4 in "compatibility mode" to preserve Helm 3 behavior:
 
 * Stricter schema validation
