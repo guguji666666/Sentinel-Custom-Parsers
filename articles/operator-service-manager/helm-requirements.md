@@ -342,7 +342,7 @@ The following settings preserve Helm 3 behavior when running Helm 4 in "compatib
 
 * Stricter schema validation
   * Helm 4 introduces stricter validation that rejects Go-typed slices, such as []map[string]interface{}, when validating JSON arrays. This behavior can cause failures when NFO injects imagePullSecrets values.
-  * NFO has updated value injection logic to use []interface{} instead and audited similar code paths to ensure compatibility.
+  * NFO updates value injection logic to use []interface{} instead and audits similar code paths to ensure compatibility.
 * Server-Side Apply (SSA) enabled by default
   * Helm 4 validates rendered manifests against the cluster OpenAPI schema before applying resources. Charts containing invalid field definitions that were previously tolerated by Helm 3 may fail validation.
   * Compatibility mode disables SSA during install and upgrade operations to preserve Helm 3 behavior.
