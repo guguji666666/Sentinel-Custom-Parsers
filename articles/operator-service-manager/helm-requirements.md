@@ -347,7 +347,7 @@ The following settings preserve Helm 3 behavior when running Helm 4 in "compatib
   * Helm 4 validates rendered manifests against the cluster OpenAPI schema before applying resources. Charts containing invalid field definitions that were previously tolerated by Helm 3 may fail validation.
   * Compatibility mode disables SSA during install and upgrade operations to preserve Helm 3 behavior.
 * New wait model
-  * Helm 4 defaults to an event-driven waiting model that requires Kubernetes watch permissions. This behavior can fail on Nexus clusters where the necessary RBAC permissions are not available.
+  * Helm 4 defaults to an event-driven waiting model that requires Kubernetes watch permissions. This behavior can fail on Nexus clusters where the necessary RBAC permissions aren't available.
   * Compatibility mode pins wait behavior to LegacyStrategy, preserving Helm 3 polling semantics.
 * Recreate removed
   * Helm 4 removes support for Upgrade.Recreate. While runtime impact is expected to be low, customer-configured values in the CRD would otherwise no longer have any effect.
