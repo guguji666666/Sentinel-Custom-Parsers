@@ -338,7 +338,7 @@ The AOSM team plans to support Helm 4 through two key milestones:
 Publishers will continue to have flexibility when selecting Helm behavior during NFO installation. NFO will default to "compatibility mode," while providing an installation option to enable full Helm 4 behavior. This capability is cluster-scoped, meaning all deployments within a cluster must use the same Helm operating mode.
 
 ### Compatibility mode details
-The following settings are applied when running Helm 4 in "compatibility mode" to preserve Helm 3 behavior:
+The following settings preserve Helm 3 behavior when running Helm 4 in "compatibility mode":
 
 * Stricter schema validation
   * Helm 4 introduces stricter validation that rejects Go-typed slices, such as []map[string]interface{}, when validating JSON arrays. This behavior can cause failures when NFO injects imagePullSecrets values.
