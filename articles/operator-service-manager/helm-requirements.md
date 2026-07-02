@@ -329,7 +329,7 @@ Key changes introduced with Helm 4 include:
 Importantly, Helm 4 maintains compatibility with existing Helm v3 charts, enabling organizations to adopt Helm 4 gradually without requiring immediate changes to charts or deployment artifacts.
 
 ### Relevance to AOSM Publishers
-The AOSM team is planning Helm 4 support through two key milestones:
+The AOSM team plans to support Helm 4 through two key milestones:
 * First, the AOSM team will release an NFO version that includes Helm 4.1.4 operating in a "compatibility mode." This mode preserves Helm 3.18 behavior, allowing publishers to adopt Helm 4 without modifying existing charts or artifacts.
   * This NFO version is available today for preview testing in the UKSouth lab.
 * Second, the AOSM team will release an NFO version that removes compatibility customizations and enables full Helm 4 behavior. Publishers may adopt this version when ready, understanding that chart and artifact changes may be required.
