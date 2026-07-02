@@ -344,7 +344,7 @@ The following settings preserve Helm 3 behavior when running Helm 4 in "compatib
   * Helm 4 introduces stricter validation that rejects Go-typed slices, such as []map[string]interface{}, when validating JSON arrays. This behavior can cause failures when NFO injects imagePullSecrets values.
   * NFO updates value injection logic to use []interface{} instead and audits similar code paths to ensure compatibility.
 * Server-Side Apply (SSA) enabled by default
-  * Helm 4 validates rendered manifests against the cluster OpenAPI schema before applying resources. Charts containing invalid field definitions that were previously tolerated by Helm 3 may fail validation.
+  * Helm 4 validates rendered manifests against the cluster OpenAPI schema before applying resources. Charts containing invalid field definitions that Helm 3 previously tolerated might fail validation.
   * Compatibility mode disables SSA during install and upgrade operations to preserve Helm 3 behavior.
 * New wait model
   * Helm 4 defaults to an event-driven waiting model that requires Kubernetes watch permissions. This behavior can fail on Nexus clusters where the necessary RBAC permissions aren't available.
