@@ -307,7 +307,7 @@ Currently, if the `dependsOnProfile` code provided in the NFDV is invalid, the N
 }
 ```
 
-## Best Practices for Adopting Helm 4
+## Best practices for adopting Helm 4
 Helm has been the standard package manager for Kubernetes since its initial release in 2016. Its evolution has closely tracked Kubernetes itself:
 * Helm v2 (2016–2019): Introduced chart-based application packaging but relied on a server-side component (Tiller), which created security and multi-tenancy concerns.
 * Helm v3 (2019–2025): Removed Tiller, shifting to a client-only model with improved security and usability. This version became the industry standard and accumulated incremental enhancements while maintaining backward compatibility.
